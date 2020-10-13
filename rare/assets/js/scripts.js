@@ -13,6 +13,10 @@
         $('body').delay(150).css({ 'overflow': 'visible' })
     })
 
+
+    //brand logo carousel
+
+    
     // slider-active
     $('.slider-active').owlCarousel({
         margin: 0,
