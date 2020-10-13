@@ -184,14 +184,14 @@ a#scrollUp:hover {
 
 /*--------header-area start---------*/
 .logo {
-    margin: 30px 0px;
+    margin: 20px 0px;
 }
 
 .logo img{
-    height: 70px;
+    height: 50px;
 }
 .mainmenu {
-    padding: 47px 0px;
+    padding: 30px 0px;
 }
 .mainmenu ul,
 .search-wrapper ul {
@@ -403,7 +403,7 @@ a#scrollUp:hover {
     margin: 15px 0px;
 }
 .sticky-menu .mainmenu {
-    padding: 32px 0px;
+    padding: 25px 0px;
 }
 .sticky-menu .search-wrapper ul li a {
     padding: 37px 0px;
@@ -727,8 +727,8 @@ a#scrollUp:hover {
 .about-wrap {
     position: relative;
     padding: 60px 0px 60px 30px;
-    border-top: 2px solid #d73e4d;
-    border-left: 2px solid #d73e4d;
+    border-top: 2px solid #dc7027;
+    border-left: 2px solid #dc7027;
     text-align: center;
 }
 .about-wrap:before {
@@ -740,8 +740,8 @@ a#scrollUp:hover {
     height: 280px;
     content: "";
     /* background: #d73e4d; */
-    border-bottom: 2px solid #d73e4d;
-    border-right: 2px solid #d73e4d;
+    border-bottom: 2px solid #dc7027;
+    border-right: 2px solid #dc7027;
 }
 .about-wrap:after {
     position: absolute;
@@ -750,8 +750,8 @@ a#scrollUp:hover {
    
     width: 100px;
     height: 60px;
-    border-top: 2px solid #d73e4d;
-    border-right: 2px solid #d73e4d;
+    border-top: 2px solid #dc7027;
+    border-right: 2px solid #dc7027;
     content: "";
 }
 .about-wrap h2 {
@@ -822,6 +822,7 @@ a#scrollUp:hover {
     font-weight: 500;
     font-size: 20px;
     margin-bottom: 20px;
+    text-transform: capitalize;
 }
 .spacial-img {
     position: relative;
@@ -838,6 +839,7 @@ a#scrollUp:hover {
 }
 .spacial-item:hover {
     background: #d73e4d;
+    color: white;
 }
 .spacial-item span {
     display: block;
@@ -868,6 +870,7 @@ a#scrollUp:hover {
 }
 .project-menu button.active {
     background: #d73e4d;
+    color: #fff;
 }
 .project-wrap {
     position: relative;
@@ -911,6 +914,7 @@ a#scrollUp:hover {
 }
 .project-content {
     position: absolute;
+    background-color: #ff5a44b3;
     left: 0;
     top: 0;
     width: 100%;
@@ -943,6 +947,8 @@ a#scrollUp:hover {
     transition-duration: 0.5s;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
+    
+    
 }
 .project-wrap:hover .project-content {
     -webkit-transform: scaleY(1);
@@ -1027,6 +1033,7 @@ a#scrollUp:hover {
     text-align: center;
     display: inline-block;
     background: #d73e4d;
+    color: white;
     line-height: 35px;
 }
 .service-content a:hover {
@@ -1293,7 +1300,7 @@ ul.slick-dots {
 /*--------brand-area start---------*/
 .brand-area {
     padding: 100px 0px;
-    background: #d73e4d;
+    background: #ed452f;
 }
 /*--------brand-area end---------*/
 #googleMap {
@@ -1310,7 +1317,7 @@ ul.slick-dots {
 }
 .footer-logo img {
     margin-bottom: 30px;
-    height: 70px;
+    height: 40px;
 }
 .footer-logo p {
     margin-bottom: 20px;
@@ -1333,7 +1340,7 @@ ul.slick-dots {
     font-size: 18px;
     text-transform: uppercase;
     padding-left: 30px;
-    margin: 30px 0px 50px;
+    margin: 15px 0px 50px;
     font-weight: 600;
     position: relative;
 }
@@ -1386,6 +1393,25 @@ ul.slick-dots {
     left: 5px;
     color: #d73e4d;
 } */
+
+/* Footer Bottom */
+
+.footer-bootem .bottom-copyright{
+    float: left; 
+    text-align: left;
+    color: #fff;
+}
+
+.footer-bootem .bottom-develop{
+    float: right; 
+    text-align: right;
+    color: #fff;
+}
+
+.footer-bootem .bottom-develop a:hover{
+    color: #fff;
+}
+
 .newsletter p {
     margin-bottom: 20px;
 }
@@ -2355,7 +2381,7 @@ a.readmore-btn:hover {
 .contact-form button {
     padding: 10px 30px;
     background: #d73e4d;
-    color: #363636;
+    color: #fff;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 700;
@@ -2366,16 +2392,17 @@ a.readmore-btn:hover {
 .blog-form button:hover,
 .contact-form button:hover {
     background: #222;
-    color: #d73e4d;
+    color: #fff;
 }
 .contact-form textarea{
   height: 270px;
 }
 .contact-wrap ul li{
   position: relative;
+  color: #fff;
   padding:30px 20px 30px 100px;
   font-size: 18px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 600;
   background: #d73e4d;
   margin-bottom: 25px;
@@ -2391,16 +2418,18 @@ a.readmore-btn:hover {
   top: 50%;
   left: 30px;
   font-size: 35px;
-  color: #222;
+  color: #fff;
 }
 .contact-wrap ul li p{
   font-size: 14px;
   margin-top: 8px;
   font-weight: 400;
+  color: #fff;
   text-transform: capitalize;
 }
 .contact-wrap ul li p span{
   display: block;
+  color: #fff;
 }
 .contact-area #googleMap{
     margin-top: 100px;
