@@ -162,6 +162,10 @@ div {
 .bg-1 {
     background: #f1f1f1;
 }
+
+.bg-2 {
+    background: #ed452f;
+}
 .bg-fff {
     background: #fff;
 }
@@ -494,7 +498,7 @@ a#scrollUp:hover {
     top: 0;
     width: 100%;
     height: 100%;
-    background: #000;
+    /* background: #000; */
     content: "";
     opacity: .5;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
@@ -838,7 +842,7 @@ a#scrollUp:hover {
     height: 180px;
 }
 .spacial-item:hover {
-    background: #d73e4d;
+    background: #333;
     color: white;
 }
 .spacial-item span {
@@ -1012,7 +1016,7 @@ a#scrollUp:hover {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 .service-content {
-    padding: 30px 10px;
+    padding: 30px 20px;
     background: #fff;
 }
 .service-content h4 {
@@ -1300,7 +1304,7 @@ ul.slick-dots {
 /*--------brand-area start---------*/
 .brand-area {
     padding: 100px 0px;
-    background: #ed452f;
+    background: #fff;
 }
 /*--------brand-area end---------*/
 #googleMap {
