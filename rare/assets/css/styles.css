@@ -44,10 +44,15 @@
 @font-face {
     font-family: Oswald;
     src: url(../fonts/Oswald/Oswald-VariableFont_wght.ttf);
-  }
+}  
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
 
 body {
-    font-family: 'Oswald';
+    font-family: 'Roboto';
     line-height: 26px;
     color: #333132;
     font-size: 16px;
@@ -74,6 +79,7 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: 'Oswald';
     margin-bottom: 10px;
     margin-top: 0px;
 }
@@ -218,6 +224,7 @@ a#scrollUp:hover {
     height: 50px;
 }
 .mainmenu {
+    font-family: 'Oswald' ;
     padding: 30px 0px;
 }
 .mainmenu ul,
