@@ -40,8 +40,14 @@
     margin: 0;
     padding: 0;
 }
+
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald/Oswald-VariableFont_wght.ttf);
+  }
+
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Oswald';
     line-height: 26px;
     color: #333132;
     font-size: 16px;
@@ -160,6 +166,7 @@ div {
     margin-bottom: 40px;
 }
 
+
 .bg-1, .sticky-menu{
     border-bottom: 2px solid #ee4431;
     background: linear-gradient(90deg, #fffeb3 0%, #ffa166 67%, #f75242 100%);
@@ -225,6 +232,7 @@ a#scrollUp:hover {
 .mainmenu ul li {
     margin-left: 20px;
     position: relative;
+
 }
 .mainmenu ul li:first-child {
     margin-left: 0px;
@@ -235,6 +243,8 @@ a#scrollUp:hover {
     padding: 5px 10px;
     font-weight: 500;
     color: #333132;
+    font-size: 18px;
+    font-weight: 600;
 }
 .mainmenu ul li.active>a,
 .mainmenu ul li:hover>a {
@@ -765,7 +775,7 @@ a#scrollUp:hover {
     height: 320px;
     content: "";
     /* background: #d73e4d; */
-    border-bottom: 125px solid #ea3e07;
+    border-bottom: 100px solid #ea3e07;
     border-right: 15px solid #ea3e07;
 }
 .about-wrap:after {
@@ -803,6 +813,20 @@ a#scrollUp:hover {
     }    
 }
 
+.about-wrap h1{
+    font-size: 32px;
+    color: #88090c;
+    margin-bottom: 50px;
+    
+}
+
+.about-wrap h1 span{
+    display: block;
+    font-size: 48px;
+    color: #fff;
+
+}
+
 .about-wrap h2 {
     font-size: 30px;
     font-weight: 700;
@@ -820,7 +844,7 @@ a#scrollUp:hover {
     margin-bottom: 30px;
     margin-right: 30px;
     text-align: justify;
-    font-size: 15px;
+    font-size: 18px;
     color: #fff;
 }
 .about-content {
