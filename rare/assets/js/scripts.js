@@ -10,7 +10,7 @@
     $(window).on('load', function() { // makes sure the whole site is loaded
         $('.preloder-wrap').fadeOut(); // will first fade out the loading animation
         $('.loader').delay(150).fadeOut('slow'); // will fade out the white DIV that covers the website.
-        $('body').delay(150).css({ 'overflow': 'visible' })
+        // $('body').delay(150).css({ 'overflow': 'visible' })
     })
 
 
@@ -294,12 +294,12 @@
     /*--------------------------
      scrollUp
     ---------------------------- */
-    $.scrollUp({
-        scrollText: '<i class="fa fa-arrow-up"></i>',
-        easingType: 'linear',
-        scrollSpeed: 900,
-        animation: 'fade'
-    });
+    // $.scrollUp({
+    //     scrollText: '<i class="fa fa-arrow-up"></i>',
+    //     easingType: 'linear',
+    //     scrollSpeed: 900,
+    //     animation: 'fade'
+    // });
 
     /*--
     Magnific Popup
@@ -401,7 +401,7 @@
     });
 
     // mouse scrolling effect
-    $.scrollSpeed(200, 800);
+    // $.scrollSpeed(200, 800);
 
     /*---------------------
     // Ajax Contact Form
