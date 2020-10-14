@@ -160,13 +160,10 @@ div {
     margin-bottom: 40px;
 }
 
-.bg-1,.sticky-menu{
+.bg-1, .sticky-menu{
     border-bottom: 2px solid #ee4431;
+    background: linear-gradient(90deg, #fffeb3 0%, #ffa166 67%, #f75242 100%);
     
-    }
-
-.bg-1 {
-    background: #f1f1f1;
 }
 
 .bg-2 {
@@ -176,6 +173,11 @@ div {
 .bg-orange{
     background: #ea3e07;
 }
+
+.bg-footer{
+    background: #4a1200;
+}
+    
 
 .bg-papayawhip{
     background: #ffefd5;
@@ -414,7 +416,7 @@ a#scrollUp:hover {
     z-index: 999;
     /* background: #fff;
     background: rgb(255,7,7); */
-    background: linear-gradient(90deg, #e89f3f 0%, #ef8e51 67%, #fe8276 100%);
+    background: linear-gradient(90deg, #fffeb3 0%, #ffa166 67%, #f75242 100%);
     box-shadow: 0px 1px 2px rgba(0, 0, 0, .1);
     -webkit-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
@@ -758,25 +760,49 @@ a#scrollUp:hover {
     position: absolute;
     left: 0;
     bottom: 0;
-    right: -100px;
+    right: -40px;
     /* width: 100%; */
-    height: 260px;
+    height: 320px;
     content: "";
     /* background: #d73e4d; */
-    border-bottom: 2px solid #ea3e07;
-    border-right: 2px solid #ea3e07;
+    border-bottom: 125px solid #ea3e07;
+    border-right: 15px solid #ea3e07;
 }
 .about-wrap:after {
     position: absolute;
-    right: -100px;
+    right: -60px;
     top: -2px;
    
     width: 100px;
-    height: 60px;
-    border-top: 2px solid #ea3e07;
-    border-right: 2px solid #ea3e07;
+    height: 100px;
+    border-top: 15px solid #ea3e07;
+    border-right: 15px solid #ea3e07;
     content: "";
 }
+
+@media screen and (max-width: 480px) {
+
+    .about-wrap{
+        margin: 10px 0px;
+    }
+
+    .about-area .about-wrap p{
+        padding: 60px 10px 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+     
+    }
+
+    .about-wrap:before {
+        display: none;
+        
+    }
+    .about-wrap:after {
+        display: none;
+        
+    }    
+}
+
 .about-wrap h2 {
     font-size: 30px;
     font-weight: 700;
@@ -865,7 +891,7 @@ a#scrollUp:hover {
     height: 180px;
     background: #5a0202;
     background: #5a0202;
-    background: linear-gradient(90deg, #5a0202 0%, rgb(152 28 16) 67%, rgb(191 186 136) 100%);
+    background: linear-gradient(90deg, #5a0202 0%, rgb(152 28 16) 67%, rgb(41 38 2) 143%);
     border-radius: 5px;
 }
 .spacial-item:hover {
@@ -1343,7 +1369,7 @@ ul.slick-dots {
 }
 /*--------footer-area start---------*/
 .footer-top {
-    padding: 120px 0px 90px;
+    padding: 50px 0px 50px;
 }
 .footer-widget {
     margin-bottom: 30px;
@@ -1358,28 +1384,37 @@ ul.slick-dots {
 }
 .footer-logo p {
     margin-bottom: 20px;
+    color: #ea8868;
 }
 .footer-logo h4 {
     font-size: 16px;
     text-transform: uppercase;
     margin-bottom: 5px;
+    color: #ea8868;
 }
 .footer-logo span {
     display: block;
     margin-bottom: 20px;
+    color: #ea8868;
 }
 .footer-logo ul li {
     display: inline-block;
     margin-right: 10px;
     font-size: 18px;
+    color: #ea8868;
+}
+
+.footer-logo ul li a{
+    color: #ea8868;
 }
 .footer-widget h4.widget-title {
     font-size: 18px;
     text-transform: uppercase;
-    padding-left: 30px;
-    margin: 15px 0px 50px;
+    padding-left: 0px;
+    margin: 15px 0px 40px;
     font-weight: 600;
     position: relative;
+    color: #ea8868;
 }
 .footer-widget h4.widget-title:before {
     position: relative;
@@ -1396,12 +1431,13 @@ ul.slick-dots {
     padding-left: 40px;
     line-height: 24px;
     font-size: 14px;
+    color: #ea8868;
 }
 .footer-contact ul li i {
     height: 25px;
     width: 25px;
     font-size: 14px;
-    border: 1px solid #333;
+    border: 1px solid#ea8868;;
     text-align: center;
     line-height: 24px;
     position: absolute;
@@ -1416,8 +1452,50 @@ ul.slick-dots {
 }
 .footer-menu ul li {
     line-height: 37px;
-    padding-left: 30px;
+    padding-left: 0px;
     position: relative;
+}
+.footer-menu ul li a{
+    color: #ea8868;
+}
+
+/* Footer Bottom */
+
+.footer-bootem .bottom-copyright{
+    float: left; 
+    text-align: left;
+    
+}
+
+.footer-bootem .bottom-develop{
+    float: right; 
+    text-align: right;
+    
+}
+
+.footer-bootem p{
+    color: #a29c9c;
+}
+
+
+.footer-bootem .bottom-develop a{
+    color: #ed452f;
+}
+
+.footer-bootem .bottom-develop a:hover{
+    color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+
+    .footer-bootem .bottom-develop{
+        text-align: center;   
+    }
+
+    .footer-bootem .bottom-copyright{
+        text-align: center;   
+    }
+    
 }
 /* .footer-menu ul li:before {
     position: absolute;
@@ -1431,27 +1509,6 @@ ul.slick-dots {
     color: #d73e4d;
 } */
 
-/* Footer Bottom */
-
-.footer-bootem .bottom-copyright{
-    float: left; 
-    text-align: left;
-    color: #fff;
-}
-
-.footer-bootem .bottom-develop{
-    float: right; 
-    text-align: right;
-    color: #fff;
-}
-
-.footer-bootem .bottom-develop a{
-    color: #ed452f;
-}
-
-.footer-bootem .bottom-develop a:hover{
-    color: #fff;
-}
 
 .newsletter p {
     margin-bottom: 20px;
