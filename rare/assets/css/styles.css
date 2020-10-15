@@ -1071,13 +1071,12 @@ a#scrollUp:hover {
 }
 .service-img {
     position: relative;
-    /* overflow: hidden; */
+    overflow: hidden;
     text-align: center;
     
 }
 .service-img img {
     width: 100%;
-    height: 60px;
     -webkit-transform: scale(1);
     transform: scale(1);
     -webkit-transition: all .3s;
@@ -1087,7 +1086,7 @@ a#scrollUp:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
-/* .service-img:before {
+.service-img:before {
     position: absolute;
     left: 0;
     top: 0;
@@ -1103,7 +1102,26 @@ a#scrollUp:hover {
 .service-wrap:hover .service-img:before {
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-} */
+}
+
+
+.service-icon {
+    position: relative;
+    text-align: center;
+    
+}
+.service-icon img {
+    width: 100%;
+    height: 60px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.service-wrap:hover .service-icon img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
 .service-content {
     padding: 30px 20px;
     background: #fff;
